@@ -1,0 +1,63 @@
+body {
+    padding: 5% 30%;
+    background-image: url("https://cdn.pixabay.com/photo/2017/04/05/04/44/background-2203989_960_720.jpg");
+    
+    
+}
+
+
+
+body h1{
+    padding-left: 35%;
+    color: rgb(3, 16, 101);
+}
+
+.formdesign {
+    font-size: 22px;
+    color: rgb(0, 15, 24);
+
+}
+body label{
+    display: inline-block;
+    width: 150px;
+    text-align: right
+}
+
+.formdesign input {
+    width: 50%;
+    padding: 12px 25px;
+    border: 2px solid rgb(89, 60, 33);
+    margin: 14px;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+.formerror {
+    color: red;
+    font-size: 20px;
+}
+
+.but {
+    border-radius: 10px;
+    border: 3px solid rgb(4, 186, 50);
+    width: 100px;
+    height: 50px;
+    font-size: 25px;
+    color: rgba(0, 141, 5, 0.944);
+    margin: 50px 310px ;
+
+
+}
+.formerror{
+    padding-left: 22%;
+}
+
+.asterisk_input::after {
+    content:"*"; 
+    color: #e32;
+    position: absolute; 
+    margin:0px 10px 0px -15px; 
+    font-size: xxx-large; 
+    padding: 0 5px 0 0;
+}
+  
