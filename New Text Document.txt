@@ -1,0 +1,100 @@
+function
+     returntype name()
+      void name() 
+	  
+	  "put { in the same line    eg;void main(){   "
+	  
+	  
+java should contain atleast 1 class so 
+
+	 class Main{         -----class
+	    void main(){     -----function
+	    }
+	 } 
+	 
+ACCESS MODIFIER
+
+    public ,private
+
+    "put front of class " 
+     eg:
+        public class Main{      -----   M should be capital
+		    public void main{
+			}
+		}
+		
+		
+		-----------------------------------------------------
+          
+		  
+java saves file in   *java   to  *class       
+                                     *class in an bite code
+									 
+		*java  to compiler to *class		
+
+can run bytecode on any operating system   by using java virtual machine JVM		
+					
+
+------------------------------------------------------------					
+MAIN METHOD OF should always be  static								
+									 
+~~ to print        System.out.printLm();	
+
+{{{{"sout+tab" to print system.out.printLm}}}}
+-----------------------------------------
+
+
+VARIABLE:
+
+int age=20;
+we can change the value
+age=23;
+
+can declare multiple variable in same time         int age=30,temp=40;
+
+the declaring variable should be in camel casing
+             eg:
+                 int myAge=20;
+                 int myPresent=myAge;
+
+TYPES;
+     1.primitive Type	
+     2.Reference
+
+1.PRIMITIVE TYPES
+
+TYPE     BYTE        RANGE
+byte       1           -128,127
+short      2           -32k,32k
+int        4           -2b,2b
+long       8              ------- add L    eg.27874394L
+float      4              ------- add F    eg. 10.99F
+double     8
+char       2           a,b,c,
+boolian    1           true/false
+
+										
+2.REFERENCE	
+  we need to allocate memory for reference
+  
+  eg.
+  for date-------
+   Date now = new Date();
+   
+in refence type the value is copied by the reference
+
+eg.
+  Point point1 =new Point(x:1,y:1);
+  Point point2=point1;
+  point1.x=2;            -----even when we change the x value 
+                          the value will be reflected in the point2 value
+   
+-------------------------------------------------------
+
+STRING   ---
+
+string act as an reference     
+             String message ="Hello world" + "!!";
+			  
+   
+	  
